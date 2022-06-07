@@ -1,0 +1,84 @@
+<html>
+<!-- Title -->
+<h1>CSSP-19 Screening App</h1>
+<h2>Please Compelete the Survey</h2>
+<text>Use The Drop Down Menu to Select Your Answers</text>
+
+<form method="post" action="/~pi/cgi-bin/achu21_PRG550B.213.A2.py">
+<br>
+
+
+<!-- Question 1-->
+<img src="cgi-bin/wcm/VaccineEmoji.png" width="100" height="100"/>
+<text>Q1: Are you fully vaccinated against COVID-19 ?</text>
+<br>
+<form action="/action_page.php">
+  <label for="condition">Q1 Answer:</label>
+  <select name="condition" id="condition">
+    <option value="None1">-Select an Option-</option>
+    <option value="Yes1">Yes</option>
+    <option value="No1">No</option>  
+    </select>
+<br>
+
+
+<!-- Question 2-->
+<br>
+<img src="cgi-bin/wcm/SickEmoji.png" width="100" height="100"/>
+<text>Q2: Are you experiencing any COVID-19 symptoms?</text>
+<br>
+<form action="/action_page.php">
+  <label for="condition">Q2 Answer:</label>
+  <select name="condition" id="condition">
+    <option value="None2">-Select an Option-</option>
+    <option value="Yes2">Yes</option>
+    <option value="No2">No</option>
+    </select>
+<br>
+
+
+<!-- Question 3-->
+<br>
+<img src="cgi-bin/wcm/CanadaFlag.png" width="100" height="100"/>
+<text>Q3: In the last 14 days, have you travelled outside of Canada?</text>
+<br>
+<form action="/action_page.php">
+  <label for="condition">Q3 Answer:</label>
+  <select name="condition" id="condition">
+    <option value="None3">-Select an Option-</option>
+    <option value="Yes3">Yes</option>
+    <option value="No3">No</option>
+    </select>
+<br>
+
+
+<!-- Question 4-->
+<br>
+<img src="cgi-bin/wcm/MaskEmoji.png" width="100" height="100"/>
+<text>Q4: Are You Wearing a Face Mask ?</text>
+<br>
+<form action="/action_page.php">
+  <label for="condition">Q4 Answer:</label>
+  <select name="condition" id="condition">
+    <option value="None4">-Select an Option-</option>
+    <option value="Yes4">Yes</option>
+    <option value="No4">No</option>
+    </select>
+<br>
+
+
+<!-- Question 5-->
+<br>
+<text>Please Upload a Picture of Yourself</text>
+<br>
+<form action="/action_page.php">
+  <input type="file" id="myFile" name="filename">
+<br>
+
+
+<!-- Buttons -->
+<br>
+<input type="reset" value="Reset Answers" />
+<input type="submit" value="Submit" />
+<br>
+</html>
